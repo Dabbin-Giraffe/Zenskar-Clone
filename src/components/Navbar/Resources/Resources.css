@@ -1,0 +1,14 @@
+.resource-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.resource-container * {
+    padding: 1rem;
+}
+
+.resource-container img {
+    width: 1rem;
+}

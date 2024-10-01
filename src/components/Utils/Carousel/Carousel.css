@@ -1,0 +1,75 @@
+.carousel-wrapper {
+    padding: 0 6rem;
+    position: relative;
+    width: 100%;
+
+}
+
+.carousel-wrapper .next-btn,
+.carousel-wrapper .back-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 1rem;
+    width: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--clr-grey);
+}
+
+.back-btn {
+    right: auto;
+    left: 0;
+
+}
+
+.carousel-slider {
+    overflow: hidden;
+}
+
+.carousel-slider ul {
+    display: flex;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.carousel-slider ul li {
+    list-style: none;
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.carousel-slider .carousel-slide {
+    box-shadow: 0 0 30px rgba(0, 0, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    line-height: 1.4;
+}
+
+.carousel-user {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    grid-template-areas:
+        "box1 box2"
+        "box3 box4";
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+
+
+.carousel-wrapper .carousel-slider .carousel-profile {
+    grid-area: box1;
+    width: 100%;
+    z-index: 10;
+}
+
+.carousel-wrapper .carousel-slider .carousel-desc {
+    grid-area: box2;
+}
+
+.carousel-slider .carousel-name{
+    grid-area: box4;
+}

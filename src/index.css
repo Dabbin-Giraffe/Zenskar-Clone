@@ -1,0 +1,57 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-black: #0D1D42;
+    --clr-green: #35B25F;
+    --clr-dark-blue: #0C56E9;
+    --clr-dark-navy-blue : #0D1D42;
+    --clr-dark-purple: #6366F1;
+    --clr-orange: #ED765E;
+    --clr-pastel-purple: #FAF5FF;
+    --clr-dark-pastel-purple: #A855F7;
+    --clr-grey: #E2E8F0;
+    --clr-white : white;
+
+    --fw-400: 400;
+    --fw-600: 600;
+}
+
+body {
+    font-weight: var(--fw-400);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.title {
+    font-weight: var(--fw-600);
+}
+
+.xsm-text {
+    font-size: 0.8rem;
+}
+
+.sm-text {
+    font-size: 1.2rem;
+}
+
+.med-text {
+    font-size: 1.4rem;
+}
+
+.lg-text {
+    font-size: 2rem;
+}
+
+.xlg-text {
+    font-size: 2.5rem;
+}

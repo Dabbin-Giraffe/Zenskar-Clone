@@ -1,0 +1,139 @@
+.introduction-wrapper {
+    display: grid;
+    place-items: center;
+    padding: 1rem 15rem;
+    background: linear-gradient(to right, white, beige, var(--clr-pastel-purple));
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.introduction-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introduction-text {
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.animate-text {
+    height: 3rem;
+    overflow: hidden;
+}
+
+.animate {
+    animation: spin-words 4s infinite;
+}
+
+.animate:nth-child(1) {
+    color: var(--clr-dark-blue);
+}
+
+.animate:nth-child(2) {
+    color: var(--clr-green);
+}
+
+.animate:nth-child(3) {
+    color: var(--clr-dark-purple);
+}
+
+@keyframes spin-words {
+    33% {
+        transform: translateY(-100%);
+    }
+
+    66% {
+        transform: translateY(-200%);
+    }
+
+    99% {
+        transform: translateY(0);
+    }
+
+}
+
+.introduction-text .btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    background-color: var(--clr-black);
+    border-radius: .5rem;
+    color: white;
+    border: none;
+}
+
+.introduction-text .btn-primary p {
+    margin-right: 0.5rem;
+}
+
+.btn-primary:hover span {
+    transform: translate(6px, 0);
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    transform: translate(0, -5px);
+    transition: transform 0.3s ease;
+}
+
+.intro-title {
+    color: var(--clr-orange);
+}
+
+.intro-text {
+    margin: 0.5rem 0;
+}
+
+.introduction-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--clr-grey);
+    padding: 1.5rem 1rem;
+    background-color: var(--clr-white);
+    border-radius: 2rem;
+    margin-top: 4rem;
+    width: 70%;
+}
+
+.introduction-reviews .intro-logo {
+    width: 7%;
+}
+
+.introduction-reviews .intro-star {
+    width: 24%;
+}
+
+.introduction-reviews .intro-rating {
+    color: grey;
+}
+
+.introduction-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 3rem 3rem;
+}
+
+.introduction-bottom .intro-brand {
+    width: 10%;
+}

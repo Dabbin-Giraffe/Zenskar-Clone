@@ -1,0 +1,4 @@
+.pricing-container p:hover {
+    color: var(--clr-orange);
+    cursor: pointer;
+}

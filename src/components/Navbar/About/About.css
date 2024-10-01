@@ -1,0 +1,4 @@
+.about-container p:hover {
+    cursor: pointer;
+    color: var(--clr-orange);
+}

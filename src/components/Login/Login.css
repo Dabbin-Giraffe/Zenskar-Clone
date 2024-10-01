@@ -1,0 +1,79 @@
+.login-wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(to right,#C1CFA1,#E7CCCC,#E5D9F2);
+ }
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+    border: 3px solid grey;
+    width: 35vw;
+}
+
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.login-container input{
+    height: 1.5rem;
+    border: none;
+    background-color: inherit;
+    width: 100%;
+}
+
+.login-logo{
+    display: grid;
+    place-items: center;
+}
+
+.login-logo:hover{
+    cursor: pointer;
+}
+
+.login-logo img{
+    margin: 2rem 1rem 2rem 1rem;
+    width: 20rem;
+}
+
+
+.login-mail, .login-password{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--clr-black);
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid grey;
+}
+
+.login-logo,.login-container form{
+margin: 5rem 1rem;
+}
+
+.login-container .btn-primary{
+    padding: 0.7rem 1rem;
+    background-color: var(--clr-black);
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--clr-white);
+}
+
+.login-container .btn-primary:hover{
+    transform: none;
+}
+
+.login-form-container{
+    width: 100%;
+}
+
+.login-form-container form p:hover{
+    cursor: pointer;
+}

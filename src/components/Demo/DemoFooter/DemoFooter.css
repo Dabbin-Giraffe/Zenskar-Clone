@@ -1,0 +1,16 @@
+.demo-footer-wrapper {
+    display: grid;
+    place-items: center;
+    row-gap: 2rem;
+    padding: 0 20rem;
+}
+
+.demo-footer-wrapper .demo-footer-companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.demo-footer-wrapper .demo-footer-companies img {
+    width: 13%;
+}

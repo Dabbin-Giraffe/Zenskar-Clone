@@ -1,0 +1,57 @@
+.demo-intro-wrapper {
+    display: grid;
+    place-items: center;
+    padding: 0rem 20rem;
+    margin-bottom: 8rem;
+}
+
+.demo-intro-container {
+    display: grid;
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-template-areas:
+        "box1 box2";
+    column-gap: 8rem;
+}
+
+.demo-intro-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.demo-intro-companies-imgs {
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-template-areas:
+        "box1 box2 box3"
+        "box4 box5 box6";
+    row-gap: 2rem;
+    column-gap: auto;
+}
+
+.demo-intro-companies p{
+    margin-bottom: 2rem;
+}
+
+.demo-intro-container .demo-intro-item img {
+    width: 1rem;
+}
+
+.demo-intro-item li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.demo-intro-companies img {
+    width: 8rem;
+}
+
+
+.demo-intro-text * {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,52 @@
+.menubar-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+}
+
+.menubar-container ul {
+    display: flex;
+    border-bottom: 2px solid grey;
+    gap: 2rem;
+}
+
+.menubar-container ul li {
+    list-style: none;
+    color: grey;
+}
+
+.menubar-container .menu-items-content {
+    padding: 1.5rem 1rem;
+    border-bottom: 2px solid var(--clr-white);
+}
+
+.menubar-container .menu-items-content:hover {
+    cursor: pointer;
+}
+
+.menubar-stick {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    transform: translateY(5rem);
+}
+
+section {
+    height: 30rem;
+    background-color: red;
+    margin: 8rem;
+}
+
+.menubar-wrapper{
+    background-color: var(--clr-white);
+    margin:1rem 0;
+}
+
+.menubar-click{
+    border-bottom: 2px solid var(--clr-dark-blue);
+}

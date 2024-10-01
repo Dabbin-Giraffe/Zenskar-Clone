@@ -1,0 +1,47 @@
+.footer-terinary-wrapper{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    color: grey;
+}
+
+.footer-terinary-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    width: 65%;
+}
+
+.footer-terinary-right{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-terinary-socials{
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-terinary-socials img{
+    border-radius: 3rem;
+    border: 3px solid var(--clr-black);
+    padding: 5px;
+}
+
+.footer-terinary-socials img:hover{
+    cursor: pointer;
+}
+
+.footer-terinary-terms{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-terinary-terms *:not(.title):hover{
+    transform: scale(1.01);
+    color: var(--clr-black);
+    cursor: pointer;
+}
+

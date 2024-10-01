@@ -1,0 +1,13 @@
+.footer-wrapper{
+    width: 100vw;
+    background-color: var(--clr-grey);
+    height: 100%;
+}
+
+hr{
+   width: 65%;
+   margin: 1rem auto;
+   border: none;
+   border-top: 2px solid grey;
+}
+
