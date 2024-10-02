@@ -102,6 +102,11 @@
     justify-content: center;
 }
 
+.introduction-demo iframe{
+    width: 640px;
+    height: 360px;
+}
+
 .introduction-reviews {
     display: flex;
     align-items: center;
@@ -113,6 +118,8 @@
     margin-top: 4rem;
     width: 70%;
 }
+
+
 
 .introduction-reviews .intro-logo {
     width: 7%;
@@ -136,4 +143,29 @@
 
 .introduction-bottom .intro-brand {
     width: 10%;
+}
+
+@media(max-width:1280px){
+    .introduction-wrapper{
+        padding: 1rem 5rem;
+    }
+    .introduction-top{
+        flex-direction: column;
+    }
+    .introduction-text{
+        width: 100%;
+    }
+    .introduction-demo{
+        width: 100%;
+    }
+    .introduction-reviews{
+        width: 35%;
+    }
+    .introduction-demo iframe{
+        width: 60rem;
+    }
+    .introduction-bottom{
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }

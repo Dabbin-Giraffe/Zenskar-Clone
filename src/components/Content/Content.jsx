@@ -6,9 +6,17 @@ import Section2 from './Section2/Section2'
 const Content = () => {
     return (
         <>
-            <Introduction />
-            <Section1 />
-            <Section2 />
+            <div className="content-wrapper">
+                <div className="content-introduction-wrapper">
+                    <Introduction />
+                </div>
+                <div className="content-section1-wrapper">
+                    <Section1 />
+                </div>
+                <div className="content-section2-wrapper">
+                    <Section2 />
+                </div>
+            </div>
         </>
 
     )

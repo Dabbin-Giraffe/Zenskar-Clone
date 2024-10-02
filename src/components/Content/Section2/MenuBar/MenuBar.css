@@ -42,15 +42,19 @@ section {
     margin: 8rem;
 }
 
-.menubar-wrapper{
+.menubar-wrapper {
     background-color: var(--clr-white);
-    margin:1rem 0;
+    margin: 1rem 0;
 }
 
-.menubar-click{
+.menubar-click {
     border-bottom: 2px solid var(--clr-dark-blue);
 }
 
-.custom-content-wrapper{
-    padding: 3rem 20rem;
+.custom-content-wrapper {
+    padding: 3rem 2rem;
+}
+
+@media(max-width:1500px) {
+    
 }

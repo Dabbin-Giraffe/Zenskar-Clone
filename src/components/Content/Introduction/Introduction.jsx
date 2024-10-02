@@ -32,7 +32,7 @@ const Introduction = () => {
                         </div>
                         <div className="introduction-demo">
                             <div className="introduction-video">
-                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/941169137?h=8b98465039" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/941169137?h=8b98465039" frameborder="0" allowfullscreen></iframe>
                             </div>
                             <div className="introduction-reviews">
                                 <img src={arrowLogo} className='intro-logo' alt="" />
