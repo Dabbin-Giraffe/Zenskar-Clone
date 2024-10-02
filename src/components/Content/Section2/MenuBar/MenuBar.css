@@ -50,3 +50,7 @@ section {
 .menubar-click{
     border-bottom: 2px solid var(--clr-dark-blue);
 }
+
+.custom-content-wrapper{
+    padding: 3rem 20rem;
+}
