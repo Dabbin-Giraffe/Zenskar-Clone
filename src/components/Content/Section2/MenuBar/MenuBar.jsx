@@ -98,14 +98,7 @@ const MenuBar = () => {
                     </ul>
                 </div>
 
-                <div className="temp-content">
-                    <section ref={section1Ref}>Section 1 Content</section>
-                    <section ref={section2Ref}>Section 2 Content</section>
-                    <section ref={section3Ref}>Section 3 Content</section>
-                    <section ref={section4Ref}>Section 4 Content</section>
-                    <section ref={section5Ref}>Section 5 Content</section>
-                    <section ref={section6Ref} style={{ marginBottom: "50rem" }}>Section 6 Content</section>
-                </div>
+                <CustomContent />
             </div>
         </>
     );

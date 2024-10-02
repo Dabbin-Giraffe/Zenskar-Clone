@@ -66,6 +66,8 @@ img.logo{
 
 .navbar-buttons .btn-primary span,.navbar-buttons .btn-secondary span{
     padding: 0.3rem;
+    transition: transform 0.3s ease;
+
 }
 
 .navbar-buttons .btn-primary:hover , .navbar-buttons .btn-secondary:hover {
@@ -76,7 +78,6 @@ img.logo{
 
 .navbar-buttons .btn-primary:hover span,.navbar-buttons .btn-secondary:hover span{
     transform: translate(5px,0);
-    transition: transform 0.3s ease;
 }
 
 .navbar-container img:hover{
