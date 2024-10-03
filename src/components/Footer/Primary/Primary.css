@@ -64,3 +64,10 @@
 .footer-primary-container button:hover{
     cursor: pointer;
 }
+
+@media(max-width:1400px){
+    .footer-primary-container input{
+        width: 10rem;
+    }
+    
+}
